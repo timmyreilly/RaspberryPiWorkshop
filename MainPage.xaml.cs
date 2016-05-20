@@ -73,8 +73,8 @@ namespace PushButton
             // UNCOMMENT These lines to get the pi to talk/send messages to IoT Hub 
             if (e.Edge == GpioPinEdge.RisingEdge)
             {
-                var words = await GetWeatherString("37,-128");
-                Speak(words);
+                //var words = await GetWeatherString("37,-128");
+                //Speak(words);
                 //SendDeviceToCloudMessagesAsync();
 
             }
